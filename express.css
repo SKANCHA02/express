@@ -6,14 +6,14 @@ body {
 
 
 .navbar {
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(216, 206, 206, 0.1);
 }
-
+.navbar-nav{color: #ffffff !important;}
 .navbar-brand {
     font-weight: bold;
-    color: #2c3e50 !important;
+    color: #ffffff !important;
 }
-
+.nav-item{ color: #ffffff !important}
 
 .hero-section {
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('images/hero-bg.jpg');

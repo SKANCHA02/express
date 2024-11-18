@@ -15,20 +15,20 @@ app.get("/", v, (req, res) => {
 	});
 });
 
-app.get("/Homepage", v, (req, res) => {
+app.get("/Homepage.html", v, (req, res) => {
 	fs.readFile("./Homepage.html", "utf8", (err, data) => {
 		err ? res.end("FILE NOT FOUND") && console.error(err) : res.end(data);
 	});
 });
 
-app.get("/Ourservices", v, (req, res) => {
+app.get("/Ourservices.html", v, (req, res) => {
 	fs.readFile("./Ourservices.html", "utf8", (err, data) => {
 		err ? res.end("FILE NOT FOUND") && console.error(err) : res.end(data);
 	});
 });
 
 
-app.get("/Contactus", v, (req, res) => {
+app.get("/Contactus.html", v, (req, res) => {
 	fs.readFile("./Contactus.html", "utf8", (err, data) => {
 		err ? res.end("FILE NOT FOUND") && console.error(err) : res.end(data);
 	});

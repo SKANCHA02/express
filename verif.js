@@ -4,7 +4,7 @@ let hours = new Date().getHours();
 console.log(hours);
 
 function verifis(req, res,next) {
-    if (day > 0 && day < 6 && hours > 8 && hours < 17 ) next();
+    if (day > 0 && day < 6 && hours > 8 && hours < 18) next();
     else
 
         res.send(
